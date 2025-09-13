@@ -1,0 +1,53 @@
+:root 
+{
+  --bg-c: #FCF0D8;
+  --logo-w: 80px
+}
+#header {
+  text-align: center;
+  height: 250px;
+}
+.faded-bg {
+  width: 100%;
+  height: auto;
+  background-image: 
+    linear-gradient(to bottom, rgba(252, 240, 216, 0.4) 70%, var(--bg-c) 100%), 
+    url("/images/Bgcc_cover.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#headerLogo
+{
+  margin: auto;
+  width: var(--logo-w);
+  height: 110px;
+  display: inline-block;
+}
+#club_name
+{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+#welcome
+{
+  
+  text-align: left;
+  padding: 20px;
+}
+.bgn{
+  background: var(--bg-c);
+}
+#menu-btn{
+  position: absolute;
+  left: 85%;
+  top: 5%;
+  transform: translateY(-50%); /* vertically center with the logo */
+  border: none;
+  padding: 6px 10px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 25px;
+}
