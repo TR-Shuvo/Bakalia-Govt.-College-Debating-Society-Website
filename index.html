@@ -3,23 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="/index.css">
+  <script src="index.js"></script>
   <title>html</title>
 </head>
 <body class="bgn">
-  <div id="header" class="faded-bg">
-      <img src="BGCDS_logo.png" id="headerLogo">
-      <button id="menu-btn" aria-label="Open navigation">&#9776;</button>
-	    <div id="club_name"><b>Bakalia Govt. College Debating Society</b>
+  <div id="header" class="faded-bg"> 
+      <img src="/BGCDS_logo.png" id="headerLogo" class="logo" alt="BGCDS logo">
+      <button class="menu-btn" aria-label="Open navigation"onclick="toggleNav()">&#9776;</button>
+      <nav class="navbar" id="navbar">
+         <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;
+         </a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+	    <div id="club_name"class="title"><b>Bakalia Govt. College Debating Society</b>
     	</div>
 	</div>
+	<div 
 	<div  id="welcome">
 	  <h3 style="font-size:30px;">Welcome to BGCDS!</h3>
 	  <div>A new journey begins, filled with opportunities to learn, grow, and shine.</div>
     <p>As you begin this new chapter, we hope you grow in knowledge, confidence, and expression. BGCDS is here to help you discover your voice and inspire change. Welcome once again to Bakalia Government College!</p>
 
     <p>We can’t wait to see you step forward and be part of this vibrant journey.</p>
+    <p>blah</p>
+    <p>blah</p>
+    <p>blah</p>
+    <p>blah</p>
+    <p>blah</p>
+    <p>blah</p>
 	</div>
 </body>
 </html>
